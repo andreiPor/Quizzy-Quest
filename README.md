@@ -48,4 +48,7 @@ After finishing, click **Restart Quiz** to play again 🚀
 
 ---
 
-Enjoy and have fun! 😄🎮
+## Play Online 🎮
+
+[Enjoy and have fun! 😄🎮](https://andreipor.github.io/Quizzy-Quest/)
+
