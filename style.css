@@ -1,0 +1,43 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background: #121212;
+    color: #f0f8ff;
+}
+
+/* Quiz Container */
+#quiz-container {
+    background: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode #quiz-container {
+    background: #1e1e1e;
+    color: #f0f8ff;
+}
+
+/* Answer Buttons */
+#answer-buttons button {
+    transition: all 0.3s ease;
+}
+
+#answer-buttons button:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    #quiz-container {
+        padding: 15px;
+    }
+
+    #answer-buttons button {
+        font-size: 0.9rem;
+    }
+}
